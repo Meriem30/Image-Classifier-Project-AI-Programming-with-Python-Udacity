@@ -1,0 +1,2 @@
+python predict.py image_06752.jpg checkpoint_vgg16.pth --top_k 3 --category_names cat_to_name.json --gpu
+python train.py flowers --arch "resnet50" --hidden_units 512 --learning_rate 0.01 --epochs 10 --gpu
